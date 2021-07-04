@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .color-orange {
     color: orange;
 }
@@ -36,4 +40,33 @@ h1 {
     text-decoration: none;
     color: white;
     font-weight: 700px;
+}
+
+.second-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.last-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.card-1 {
+    width: 40%;
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 10px 5px 40px gray;
+}
+
+.border {
+   border-left: 7px solid;
+   border-image: linear-gradient(#f6b73c, #4d9f0c);
+   border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
